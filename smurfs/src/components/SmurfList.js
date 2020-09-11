@@ -3,6 +3,7 @@ import { getSmurfData } from "../actions/actions";
 import { connect } from "react-redux";
 import spinner from "./spinner.gif";
 import smurfs from "./smurfs.gif";
+import "./smurfs.css";
 
 function SmurfList(props) {
   useEffect(() => {
@@ -17,7 +18,7 @@ function SmurfList(props) {
       ) : (
         props.smurfData.map((smurf) => {
           return (
-            <div>
+            <div className="card">
               <p>Name: {smurf.name}</p>
               <p>Age: {smurf.age}</p>
               <p>Height: {smurf.height}</p>

@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(219, 254, 255);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.card p {
+  font-size: 0.75em;
+}

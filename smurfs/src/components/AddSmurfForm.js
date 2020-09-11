@@ -37,6 +37,7 @@ function AddSmurfForm(props) {
     <div>
       <form onSubmit={handleSubmit}>
         <h2>Add Smurf to Village</h2>
+
         <input
           type="text"
           name="name"
